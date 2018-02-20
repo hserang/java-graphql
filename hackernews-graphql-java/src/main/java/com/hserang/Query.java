@@ -1,6 +1,5 @@
 package com.hserang;
 
-import com.coxautodev.graphql.tools.GraphQLResolver;
 import com.coxautodev.graphql.tools.GraphQLRootResolver;
 
 import java.util.List;

@@ -14,5 +14,5 @@ schema {
 }
 
 type Mutation {
-    createLink(url: String!, description: String!): Link
+    createLink(id: String!, url: String!, description: String!): Link
 }

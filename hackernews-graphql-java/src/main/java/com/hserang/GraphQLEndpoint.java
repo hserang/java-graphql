@@ -20,6 +20,7 @@ public class GraphQLEndpoint extends SimpleGraphQLServlet {
         MongoDatabase mongo = new MongoClient().getDatabase("hackernews");
         linkRepository = new LinkRepository(mongo.getCollection("links"));
     }
+
     public GraphQLEndpoint() {
         super(buildSchema());
     }
